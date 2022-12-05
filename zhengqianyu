@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>郑倩雨的个人网站</title>
+  </head>
+  <body style="margin: 0;">
+	  <div style="
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px
+    "
+    >
+    <img alt="郑倩雨" src = "https://i.328888.xyz/2022/12/05/VmZ0t.jpeg"width= 200px height="200px"  /> 
+    </div>
+    <div style="
+    background: #b7dfff;
+    text-align: center;
+    max width: 760px;
+    margin: 30px auto;
+    padding: 15px;
+    line-height: 2.0
+    ">
+    <p>这里是郑倩雨的个人网站</p>
+    <p>姓名：郑倩雨</p>
+    <p>性别：女</p>
+    <p>学校：河南省沈丘县第一初级中学</p>
+    <p>班级：914班</p>
+    </div>
+    <div style="
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px
+    font-size:12px
+    "
+    >
+    <p>版权所有：潘博</p>
+    <p>版权所有，侵权必究！</p>
+    </div>
+    </body>
+</html>
