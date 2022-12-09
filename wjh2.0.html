@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>王君豪的个人网站2.0</title>
+    <meta name="description" content="王君豪的个人网站2.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+      }
+      /* * {
+        border: 1px solid #333;
+      } */
+      .flex {
+        display: flex;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .yinYing {
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+      }
+      .baiSe {
+        background-color: #fff;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgr8 {
+        margin-right: 8px;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
+      .shuJu {
+        height: 100px;
+      }
+      .daoHang {
+        padding: 10px 20px;
+        border-bottom: 1px solid rgb(201, 201, 201);
+        font-size: 14px;
+        color: #666;
+      }
+      .neiRong::-webkit-scrollbar {
+        display: none; /* Chrome Safari */
+      }
+      @media (max-width: 600px) {
+        .ceBian {
+          display: none;
+        }
+        .neiRong {
+          flex-direction: column;
+        }
+        .shuJuQu {
+          flex-direction: column;
+        }
+        .youQu {
+          margin-left: 8px;
+        }
+        .shuJu {
+          margin: 0 0 8px;
+          flex: auto;
+        }
+      }
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0px;
+    width: 200px;
+    background-color: #f7f4f1;
+    text-align:center;
+}
+ 
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ 
+li a.active {
+    background-color: #6477;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #505;
+    color: white;
+}
+.juzhong{
+text-align:center
+}
+.wenzi{
+font-size: 20px
+}
+.lanse{
+    color: #40E0D0
+}
+.jinju{
+color: #DAA520
+}
+.shencheng{
+color: #FF8C00
+}
+.zhonghai{
+color: rgb(60, 179, 113)
+}
+.zhaozu{
+font-size: 50px;
+}
+    </style>
+  </head>
+  <body class="flex">
+    <!-- 侧边栏 -->
+    <div
+      style="width: 200px; z-index: 3"
+      class="ceBian flex column baiSe yinYing"
+    >
+      <!-- 侧边头像栏 -->
+      <div
+        style="
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid #999;
+        "
+        class="flex"
+      >
+        <img
+          alt="logo"
+          src="https://i.328888.xyz/2022/12/08/fp0OV.png"
+          width="40px"
+          height="55px"
+        />
+        <div style="margin-left: 10px">王君豪</div>
+      </div>
+      <!-- 导航栏 -->
+      <ul>
+        <li><a href="https://wjh0428.top/index.html">潘博的个人网站 </a></li>
+        <li><a href="https://wjh0428.top/zhengqianyu.html">郑倩雨的个人网站 </a></li>
+        <li><a href="https://wjh0428.top/guobeixuan.html">郭贝轩的个人网站</a></li>
+        <li><a href="www.migorg.com">友情链接：元岛编程首页</a></li>
+      </ul>
+    </div>
+    <!-- 主区域 -->
+    <div class="flex flex1 column">
+      <!-- 头部栏 -->
+      <div style="height: 75px;text-align: center;font-size: 50px;align: center；" class="baiSe yinying">
+<font color="#4169E1"> 王君豪的个人网站2.0</font>
+</div>
+      <!-- 内容区 -->
+      <div class="flex flex1 neiRong" style="overflow: auto">
+        <!-- 左区 -->
+        <div style="flex: 3" class="flex column mg8">
+          <!-- 数据区 -->
+          <div class="flex shuJuQu">
+            <div class="shuJu baiSe yinYing flex1 mgr8 juzhong"><p>今日访问量</p>
+<h2 class="lanse">137</h2>
+</div>
+            <div class="shuJu baiSe yinYing flex1 mgr8 juzhong"><p>累计访问量</p>
+<h2 class="zhonghai">596</h2>
+</div>
+            <div class="shuJu baiSe yinYing flex1 mgr8 juzhong"><p>域名注册时间</p>
+<h2 class="shencheng">2022-9-17</h2></div>
+            <div class="shuJu baiSe yinYing flex1 juzhong"><p>网站更新时间</p>
+<h2 class="jinju">2022-12-09</h2></div>
+          </div>
+          <!-- 列表区，列表数据可以无限增加 -->
+          <div class="flex column">
+            <!-- 列表项 -->
+            <div style="height: 320px;" class="mgt8 baiSe yinYing juzhong">
+<p>Hi!你好呀！这里是王君豪的个人网站2.0，欢迎访问此网站！</p>
+<p>王君豪，河南沈丘人，男。</p>
+<p>曾就读于河南省沈丘县南关小学</p>
+<p>现就读于河南省沈丘县第一初级中学</p>
+<p>Web前端基础静态网站开发者</p>
+<p>专业SSL网站证书安装人员</p>
+<p>网站开发、证书安装请联系：13137651008</p>
+<p>好啦，就介绍到这里吧！</p>
+</div>
+            <div  style="height: 170px;" class="mgt8 baiSe yinYing juzhong">
+<h3>卓越成就</h3>
+<p>本人曾在全国性乐器等级考试中获得钢琴十级证书</p>
+<p>在中国NOC全国中学组编程大赛中获得二等奖</p>
+<p>在Web开发上，开发出多版本静态个人网站，并成功获得SSL证书与域名备案号</p>
+</div>
+            <div  style="height: 160px;" class="lieBiaoXiang mgt8 baiSe yinYing">
+<p style="border: 25px" class="zhaozu juzhong">此广告位招租</p>
+</div>
+            <div  style="height: 90px;text-align: center;" class="lieBiaoXiang mgt8 baiSe yinYing">
+<p style="color: #666">Copyright © wjh0428.top</p>
+      <a style="color: #666" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">豫ICP备17024784号-4</a></div>
+
+          </div>
+        </div>
+        <!-- 右区 -->
+        <div style="flex: 1" class="youQu flex column mgr8 mgt8">
+          <!-- 提示区 -->
+          <div style="height: 150px" class="baiSe yinYing">
+  <a style="color: #0080FF" href="https://wjh0428.top/1108tingfu.pdf" target="_blank" rel="noopener noreferrer">2022-11-08停服维护公告</a>
+<p class="juzhong">源代码如下</p>
+  <a style="color: #F4A460" href="https://wjh0428.top/yuandaima.pdf" target="_blank" rel="noopener noreferrer">2.0个人网站源代码（仅供参考）</a>
+</div>
+          <!-- 消息区 -->
+          <div style="height: 300px;padding: 20px;font-size: 30px;" class="mgt8 baiSe yinYing">
+<font color="#8CEA00"> 各位网友大家好！我们将在2022-11-08对此网站进行停服维护！感谢您的谅解</font></div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
